@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+            android:text="รหัสสินค้า"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/tv_code"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/pd_code"/>
+    <TextView
+            android:text="ชื่อสินค้า"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/txtCode"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/pd_name"/>
+    <TextView
+            android:text="รายละเอียด"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/tv_desc"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/pd_desc"/>
+    <Button
+            android:text="ตกลง"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/btnNextScreen"/>
+</LinearLayout>
